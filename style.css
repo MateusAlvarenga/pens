@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+}
+
+:root {
+    --gradient: linear-gradient(to right, #7406bd, #b6b5ffee);
+
+}
+
+.full {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+
+}
+
+.icon {
+    background-image: url('https://i.pinimg.com/originals/b3/a9/3b/b3a93bb9164a2bb29a35dcbe872cab04.png');
+    animation: icon-movement linear 30s infinite;
+    background-size: 350px;
+    z-index: -2;
+}
+
+@keyframes icon-movement {
+    0% {
+        background-position: 0% 100%;
+    }
+
+    100% {
+        background-position: 229% -90%;
+    }
+}
+
+.gradient {
+    background: var(--gradient);
+    opacity: 90%;
+    z-index: -1;
+    height: 200%;
+}
+
+#content {
+    z-index: 1;
+    padding: 100;
+}
+
+#content p {
+    padding-top: 20px;
+}
