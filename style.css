@@ -14,13 +14,13 @@ body {
 
 .full {
     position: absolute;
-    height: 100%;
+    height: 200%;
     width: 100%;
 
 }
 
 .icon {
-    background-image: url('https://i.pinimg.com/originals/b3/a9/3b/b3a93bb9164a2bb29a35dcbe872cab04.png');
+    background-image: url('https://cdn-icons.flaticon.com/png/512/5345/premium/5345639.png?token=exp=1636117558~hmac=4c137930438f9343f117b4a01581d9d1');
     animation: icon-movement linear 30s infinite;
     background-size: 350px;
     z-index: -2;
@@ -40,7 +40,7 @@ body {
     background: var(--gradient);
     opacity: 90%;
     z-index: -1;
-    height: 200%;
+
 }
 
 #content {
