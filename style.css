@@ -20,7 +20,7 @@ body {
 }
 
 .icon {
-    background-image: url('https://cdn-icons.flaticon.com/png/512/5345/premium/5345639.png?token=exp=1636117558~hmac=4c137930438f9343f117b4a01581d9d1');
+    background-image: url('./public/umbrella.png');
     animation: icon-movement linear 30s infinite;
     background-size: 350px;
     z-index: -2;
